@@ -47,7 +47,6 @@ a {
 .header-nav-list {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .header-links-list {
