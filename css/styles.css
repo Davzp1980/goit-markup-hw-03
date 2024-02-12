@@ -38,6 +38,7 @@ a {
 .page-header-container {
   box-sizing: border-box;
   display: flex;
+  justify-content: space-between;
 }
 
 .container {
