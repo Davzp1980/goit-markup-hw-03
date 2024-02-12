@@ -253,6 +253,12 @@ a {
   padding: 120px 0;
 }
 
+.portfolio-name-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-h-two {
   margin-bottom: 72px;
   font-weight: 700;
@@ -265,7 +271,10 @@ a {
 }
 
 .portfolio-list {
-  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-h-three {
