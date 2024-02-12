@@ -36,11 +36,13 @@ a {
 .page-header {
   display: flex;
   width: 100hv;
+  justify-content: space-between;
 }
 
 .header-nav-list {
   display: flex;
-  padding: 24px 0 24px 156px;
+  padding: 24px 0;
+  margin-left: 156px;
   gap: 76px;
 }
 
@@ -83,7 +85,8 @@ a {
 }
 
 .header-address-list {
-  padding: 24px 156px 24px 332px;
+  padding: 24px 0;
+  margin-right: 156px;
 }
 
 .address-items {
