@@ -31,12 +31,14 @@ a {
   padding: 0;
 }
 
+.container {
+  width: 1440px;
+}
 /* header */
 
 .page-header {
   display: flex;
-  width: 100hv;
-  justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav-list {
@@ -87,6 +89,7 @@ a {
 .header-address-list {
   padding: 24px 0;
   margin-right: 156px;
+  margin-left: 332px;
 }
 
 .address-items {
